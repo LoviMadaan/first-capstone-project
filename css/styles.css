@@ -1,0 +1,528 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+  color: #272a31;
+  font-family: sans-serif;
+  font-size: initial;
+  background-image: url(../assets/images/new2.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;  
+}
+
+body {
+  box-sizing: border-box;
+}
+
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}
+
+.navbar,
+.top,
+.logo {
+  display: none;
+}
+
+.expand {
+  position: absolute;
+  bottom: 0;
+  top: 100px;
+  left: 0;
+  right: 0;
+  background-color: white;
+  z-index: 10;
+}
+
+.show {
+  display: block;
+  margin: 0;
+  list-style-type: none;
+}
+
+.show .navlist {
+  list-style-type: none;
+  margin: -30px 0 0 0;
+  padding: 0 20px;
+}
+
+.program-list li {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  margin: 2.8px 2.8px;
+  background: rgba(141, 134, 134, 0.3);
+  padding: 10px;
+  border: solid rgba(0, 0, 0, 0);
+  font-size: 0.9rem;
+  width: 100%;
+}
+
+.show .navlist li {
+  margin: 10px 0;
+}
+
+.whole-program a {
+  text-decoration: underline;
+  font-family: sans-serif;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.show .navlist li a {
+  text-decoration: none;
+  color: #1c1e25;
+  font-size: 1.5rem;
+}
+
+.fa-bars,
+.fa-times {
+  font-size: 2.5rem;
+  margin: 25px 0 55px 25px;
+}
+
+.intro-main-page {
+  background-image: url(../assets/images/new2.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 0 22px;
+}
+
+.hello,
+.create {
+  color: #ec5242;
+}
+
+.hello {
+  font-size: 1.3rem;
+  margin-top: 40px;
+}
+
+.create {
+  margin: 0;
+  padding: 0;
+  font-size: 1.8rem;
+  line-height: 1;
+  font-weight: 600;
+  font-family: "Lato", sans-serif;
+  margin-right: 7rem;
+}
+
+.intro-main-page .description {
+  border: solid white;
+  background-color: #e9eced;
+  padding: 10px;
+  font-family: sans-serif;
+  margin-top: 5px;
+  margin-right: 6.5rem;
+}
+
+.intro-main-page .global {
+  margin-right: 6.5rem;
+  justify-content: center;
+  
+}
+
+.day-time {
+  font-family: "Lato", sans-serif;
+  color: #272a31;
+  font-size: 1.5rem;
+  margin-bottom: 0;
+  opacity: 0.8;
+}
+
+.venue {
+  font-size: 0.85rem;
+  margin: 0;
+  padding-bottom: 90px;
+}
+
+.main-program {
+  background-image: url(../assets/images/mobile_pattern.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: #fff;
+  padding-bottom: 5px;
+}
+
+.program-header {
+  text-align: center;
+  padding: 20px 0 10px;
+  font-family: sans-serif;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.short-underline {
+  width: 50px;
+  height: 3px;
+  background-color: #ec5242;
+  border: none;
+  margin: auto;
+}
+
+.program-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 5px 0;
+  padding: 0;
+}
+
+.program-list li:hover {
+  border: solid #fff;
+}
+
+.program-name {
+  margin-right: 8rem;
+}
+
+.program-description {
+  margin: 0;
+  padding: 0 0 0 10px;
+}
+
+.whole-program {
+  display: none;
+}
+
+.join {
+  display: block;
+  font-size: 1rem;
+  background-color: #ec5242;
+  margin: 20px auto;
+  padding: 20px;
+  border: none;
+  color: #fff;
+}
+
+.images {
+  width: 100px;
+}
+
+.program-list li .image {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  opacity: 1;
+}
+
+.icon {
+  size: 100%;
+}
+
+.program-list li .program-name {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #ec5242;
+  margin: 0;
+  padding: 0;
+}
+
+
+.program-list .icon {
+  width: 30px;
+  border-radius: 100%;
+  opacity: 1;
+  margin-right: 10px;
+}
+
+@media all and (min-width: 868px) {
+  body {
+    font-family: sans-serif;
+  }
+
+  .top {
+    background-color: #272a31;
+    margin: 0;
+    list-style-type: none;
+    height: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 5px 10%;
+    gap: 10px;
+  }
+
+  .whole-program a {
+    text-decoration: underline;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    color: #ec5242ff;
+  }
+
+  .top a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+  }
+
+  .navlist a {
+    text-decoration: none;
+    color: #272a31;
+    font-family: sans-serif;
+  }
+
+  .top li a {
+    font-size: 1.1rem;
+  }
+
+  .top a:hover {
+    color: #ec5242ff;
+    font-size: 1.2rem;
+  }
+
+  .logo {
+    display: block;
+    width: 160px;
+    height: 40px;    
+  }
+
+  .top .fa-twitter {
+    margin-right: 20px;
+  }
+
+  .fa-bars {
+    display: none;
+  }
+
+  .navbar {
+    display: flex;
+    padding: 20px 10%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    position: relative;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 2px 2px #272a31;
+    z-index: 10;
+  }
+
+  .navbar .navlist {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    width: 70%;
+    font-size: 1.5rem;
+  }
+
+  .navlist .nav-item:not(:last-child) {
+    margin-right: 10px;
+  }
+
+  .navlist .nav-item:last-child {
+    box-sizing: border-box;
+    padding: 5px;
+    margin-top: -5px;
+    border: solid #ec5242ff;
+  }
+
+  .nav-item a:hover {
+    color: #ec5242;
+  }
+
+  .navlist .nav-item:last-child:hover {
+    border: solid #ec5242;
+  }
+
+  .navlist .nav-item:last-child:hover a {
+    color: #ec5242;
+  }
+
+  /* Main section styline */
+  .intro {
+    color: #272a31;
+  }
+
+  .hello {
+    font-weight: normal;
+    font-size: 3rem;
+    margin-top: 0;
+    padding-top: 100px;
+    margin-bottom: 70px;
+  }
+
+  .hello,
+  .create {
+    color: #ec5242;
+  }
+
+  .create {
+    font-size: 5rem;
+    margin-top: 5px;
+    font-weight: 600;
+    font-family: "COCOGOOSE", sans-serif;
+  }
+
+  .intro-main-page .global {    
+    padding-right: 20%;
+    
+  }
+
+  .intro-main-page {
+    background-image: url(../assets/images/new2.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 0%;
+    padding: 0 10%;
+     }
+
+  .intro-main-page,
+  .description {
+    border: solid white;
+    background-color: #d3d3d3;
+    width: 100%;
+    color: #272a31;
+    font-family: sans-serif;
+    font-weight: 700;
+  }
+
+  .day-time {
+    font-family: "COCOGOOSE", sans-serif;
+    color: #272a31;
+    font-size: 2.5rem;
+    margin-bottom: 0;
+    opacity: 0.8;
+  }
+
+  .venue {
+    font-size: 1.7rem;
+    margin-top: 0;
+  }
+
+  .main-program {
+    background-image: url(../assets/images/second_background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: #fff;
+  }
+
+  .main-program * {
+    margin: 0 10%;
+  }
+
+  .partner-list {
+    margin: 10px 20%;
+  }
+
+  .partner-list .partner img {
+    width: 200px;
+    margin: 0 5px 10px;
+  }
+
+  .program-header {
+    text-align: center;
+    padding: 80px 0 20px;
+    font-family: sans-serif;
+    font-size: 2rem;
+  }
+
+  .short-underline {
+    width: 50px;
+    height: 3px;
+    background-color: #ec5242;
+    border: none;
+    margin: auto;
+  }
+
+  .program-list {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px 0;
+    padding: 0;
+  }
+
+  .program-list li {
+    display: block;
+    margin: 5px 3px;
+    text-align: center;
+    background: rgba(141, 134, 134, 0.3);
+    width: 260px;
+    padding: 20px 3px;
+    border: solid rgba(0, 0, 0, 0);
+  }
+
+  .program-list li:hover {
+    border: solid #fff;
+  }
+
+  .whole-program {
+    display: block;
+    width: 600px;
+    margin: auto;
+    padding: 40px 0 100px;
+    text-align: center;
+  }
+
+  .join {
+    display: none;
+  }
+
+  .program-list li .image {
+    display: block;
+    opacity: 1;
+  }
+
+  .program-list li .program-name {
+    font-family: "COCOGOOSE", sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px 0;
+    color: #ec5242ff;
+  }
+
+  .program-list .icon {
+    width: 100px;
+    border-radius: 100%;
+    opacity: 1;
+  }
+
+  .speakers {
+    margin: 30px 14%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .speaker {
+    display: flex;
+    max-width: 450px;
+    margin: 20px 20px 0 0;
+  }
+
+  .name {
+    margin-top: 30px;
+  }
+
+  .featured-speakers {
+    font-family: sans-serif;
+    margin: 80px 0;
+    font-size: 1.5rem;
+  }
+
+  .featured-speakers .heading {
+    text-align: center;
+  }
+
+  .explanation {
+    display: block;
+    max-width: 1000px;
+    margin-top: 20px;
+  }
+
+  .right {
+    margin-left: 60px;
+  }
+
+  .rights {
+    margin: 0 10%;
+  }
+}
