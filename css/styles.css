@@ -61,6 +61,19 @@ body {
   padding: 0 20px;
 }
 
+.whole-program a {
+  text-decoration: underline;
+  font-family: sans-serif;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.show .navlist li a {
+  text-decoration: none;
+  color: #1c1e25;
+  font-size: 1.5rem;
+}
+
 .show .navlist .nav-item a:hover {
   color: #ec5242;
 }
@@ -78,19 +91,6 @@ body {
 
 .show .navlist li {
   margin: 10px 0;
-}
-
-.whole-program a {
-  text-decoration: underline;
-  font-family: sans-serif;
-  font-size: 1.2rem;
-  color: #fff;
-}
-
-.show .navlist li a {
-  text-decoration: none;
-  color: #1c1e25;
-  font-size: 1.5rem;
 }
 
 .fa-bars,
@@ -139,7 +139,6 @@ body {
 .intro-main-page .global {
   margin-right: 6.5rem;
   justify-content: center;
-
 }
 
 .day-time {
@@ -228,10 +227,6 @@ body {
   opacity: 1;
 }
 
-.icon {
-  size: 100%;
-}
-
 .program-list li .program-name {
   font-size: 1rem;
   font-weight: bold;
@@ -239,7 +234,6 @@ body {
   margin: 0;
   padding: 0;
 }
-
 
 .program-list .icon {
   width: 30px;
@@ -396,7 +390,6 @@ body {
   padding: 10px 10px;
 }
 
-
 @media all and (min-width: 868px) {
   body {
     font-family: sans-serif;
@@ -488,7 +481,7 @@ body {
     padding: 5px;
     margin-top: -5px;
     border: solid #ec5242ff;
-    border-width: .15cm;
+    border-width: 0.15cm;
   }
 
   .nav-item a:hover {
@@ -530,7 +523,6 @@ body {
 
   .intro-main-page .global {
     padding-right: 20%;
-
   }
 
   .intro-main-page {

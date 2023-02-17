@@ -57,22 +57,26 @@ h3 {
   padding: 0 20px;
 }
 
-.show .navlist .nav-item a:hover {
-  color: #ec5242;
+.email a {
+  color: rgb(243, 172, 86);
 }
 
 .show .navlist li {
   margin: 10px 0;
 }
 
-.email a {
-  color: rgb(243, 172, 86);
-}
-
 .show .navlist li a {
   text-decoration: none;
   color: #272a31;
   font-size: 1.5rem;
+}
+
+.navlist .nav-item:nth-child(2) a {
+  color: #ec5242;
+}
+
+.show .navlist .nav-item a:hover {
+  color: #ec5242;
 }
 
 .intro-main-page {
@@ -85,9 +89,8 @@ h3 {
   display: block;
   padding: 15px 0 50px 15px;
   font-size: 2rem;
-  color: black
+  color: black;
 }
-
 
 .hello,
 .welcome1,
@@ -163,7 +166,6 @@ h3 {
   border: 0.1px solid rgb(204, 197, 197);
 }
 
-
 .footer {
   margin: 0;
   padding: 0;
@@ -204,7 +206,7 @@ h3 {
 
 .explanation {
   margin: auto;
-  display: block;  
+  display: block;
   justify-content: center;
   margin-right: 5%;
   text-align: center;
@@ -234,15 +236,23 @@ h3 {
   padding: 20px 15%;
 }
 
-/* .explanation {
-  display: none;
-} */
-
-.navlist .nav-item:nth-child(2) a {
-  color: #ec5242;
-}
-
 @media all and (min-width: 780px) {
+  .top a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+  }
+
+  .navlist a {
+    text-decoration: none;
+    color: #272a31;
+    padding: 6px;
+  }
+
+  .top li a {
+    font-size: 1rem;
+  }
+
   .navbar .nav-item a {
     font-size: 1.3rem;
   }
@@ -274,22 +284,6 @@ h3 {
     gap: 10px;
   }
 
-  .top a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 1.5rem;
-  }
-
-  .navlist a {
-    text-decoration: none;
-    color: #272a31;
-    padding: 6px;
-  }
-
-  .top li a {
-    font-size: 1rem;
-  }
-
   .top a:hover {
     color: #ec5242ff;
     font-size: 1.2rem;
@@ -299,6 +293,7 @@ h3 {
     display: block;
     width: 160px;
     height: 80px;
+
     /* border-radius: 100%; */
   }
 
@@ -419,7 +414,7 @@ h3 {
     font-size: 1.5rem;
   }
 
-   .our-logo .short-underline {
+  .our-logo .short-underline {
     width: 160px;
     height: 5px;
     background-color: #ec5242;
@@ -474,19 +469,6 @@ h3 {
     margin-top: 20px;
   }
 
-
-  
-  .intro-main-page .description {
-    border: solid white;
-    background-color: #d3d3d3;
-    width: 80%;
-    padding: 30px;
-    color: #272a31;
-    font-family: sans-serif;
-    font-weight: 700;
-    margin-top: 20px;
-  }  
- 
   .venue {
     font-size: 1.7rem;
     margin-top: 0;
