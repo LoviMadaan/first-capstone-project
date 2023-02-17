@@ -373,9 +373,15 @@ body {
 }
 
 .footer-logo img {
-  width: 70px;
-  border-radius: 100%;
-  margin-right: 10px;
+  width: 160px;  
+  align-items: center;
+  margin-left: 40px;
+  padding-right: 50%;
+  margin-right: 50px;
+}
+
+.footer-year {
+  color: #ec5242;
 }
 
 .partner-list .partner img {
@@ -390,9 +396,6 @@ body {
   padding: 10px 10px;
 }
 
-.explanation {
-  display: none;
-}
 
 @media all and (min-width: 868px) {
   body {
@@ -678,10 +681,17 @@ body {
     text-align: center;
   }
 
+  .footer-year {
+    color: #ec5242;
+    align-content: center;
+    margin-left: 25rem; 
+  }
+
   .explanation {
     display: block;
     max-width: 1000px;
     margin-top: 20px;
+    text-align: center;
   }
 
   .right {
