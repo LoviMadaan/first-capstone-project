@@ -1,3 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+@font-face {
+  font-family: "COCOGOOSE";
+  src:
+    local("Cocogoose_trial"),
+    url("../font/cocogoose/Cocogoose_trial.ttf");
+}
+
 body,
 html {
   padding: 0;
@@ -17,6 +26,11 @@ body {
 .stop-scrolling {
   height: 100%;
   overflow: hidden;
+}
+
+.hamburger {
+  position: sticky;
+  cursor: pointer;
 }
 
 .navbar,
@@ -45,6 +59,10 @@ body {
   list-style-type: none;
   margin: -30px 0 0 0;
   padding: 0 20px;
+}
+
+.show .navlist .nav-item a:hover {
+  color: #ec5242;
 }
 
 .program-list li {
@@ -228,6 +246,152 @@ body {
   border-radius: 100%;
   opacity: 1;
   margin-right: 10px;
+}
+
+.featured-speakers {
+  font-family: sans-serif;
+  margin: 20px 0;
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+}
+
+.featured-speakers .heading {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.speaker-profile .name {
+  margin-bottom: -10px;
+  font-size: 1rem;
+}
+
+.speaker-profile .short-underline {
+  background-color: #b5b9c4;
+  height: 1.5px;
+  width: 20px;
+  margin-left: 0;
+}
+
+.speaker-profile .intro,
+.speaker-profile .profile {
+  font-size: 0.7rem;
+}
+
+.speaker-profile .profile {
+  color: #ec5242;
+  font-style: italic;
+}
+
+.speakers {
+  margin: 30px 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  list-style-type: none;
+}
+
+.speaker {
+  display: flex;
+  justify-content: space-between;
+  max-width: 450px;
+  margin: 20px 20px 0 0;
+}
+
+.speaker-image {
+  width: 90px;
+  position: relative;
+  left: 12px;
+  top: -42px;
+}
+
+.grid {
+  width: 50px;
+  margin: 0;
+  padding: 0;
+}
+
+.speaker-profile {
+  margin-top: -20px;
+  margin-left: 20px;
+}
+
+.speaker-profile .intro {
+  padding: 0 0 10px;
+}
+
+.button-container {
+  max-width: 700px;
+  padding: 0 10px;
+  margin: auto;
+}
+
+.more {
+  width: 100%;
+  background-color: white;
+  border: 1px solid #d3d3d3;
+  padding: 10px;
+  color: #272a31;
+}
+
+.button-container .more {
+  cursor: pointer;
+}
+
+.button-container .fa-chevron-down,
+.button-container .fa-chevron-up {
+  color: #ec5242;
+}
+
+.footer {
+  background-color: #282b31;
+  color: #fff;
+  margin: 0;
+  padding: 0 0 10px;
+}
+
+.partners {
+  background-color: #282b31;
+  text-align: center;
+}
+
+.partners .title {
+  color: #fff;
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: 5px;
+}
+
+.partner-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-logo img {
+  width: 70px;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+
+.partner-list .partner img {
+  width: 100px;
+  margin: 0 5px 10px;
+}
+
+.rights {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px 10px;
+}
+
+.explanation {
+  display: none;
 }
 
 @media all and (min-width: 868px) {
