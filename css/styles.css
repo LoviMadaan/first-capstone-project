@@ -7,7 +7,7 @@ html {
   font-size: initial;
   background-image: url(../assets/images/new2.jpg);
   background-size: 100%;
-  background-repeat: no-repeat;  
+  background-repeat: no-repeat;
 }
 
 body {
@@ -121,7 +121,7 @@ body {
 .intro-main-page .global {
   margin-right: 6.5rem;
   justify-content: center;
-  
+
 }
 
 .day-time {
@@ -177,6 +177,7 @@ body {
 
 .program-name {
   margin-right: 8rem;
+  padding-right: 80%;
 }
 
 .program-description {
@@ -238,12 +239,12 @@ body {
     background-color: #272a31;
     margin: 0;
     list-style-type: none;
-    height: 30px;
+    height: 20px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     padding: 5px 10%;
-    gap: 10px;
+    gap: 15px;
   }
 
   .whole-program a {
@@ -277,7 +278,7 @@ body {
   .logo {
     display: block;
     width: 160px;
-    height: 40px;    
+    height: 40px;
   }
 
   .top .fa-twitter {
@@ -320,6 +321,7 @@ body {
     padding: 5px;
     margin-top: -5px;
     border: solid #ec5242ff;
+    border-width: .15cm;
   }
 
   .nav-item a:hover {
@@ -343,7 +345,7 @@ body {
     font-weight: normal;
     font-size: 3rem;
     margin-top: 0;
-    padding-top: 100px;
+    padding-top: 50px;
     margin-bottom: 70px;
   }
 
@@ -353,15 +355,15 @@ body {
   }
 
   .create {
-    font-size: 5rem;
-    margin-top: 5px;
+    font-size: 4rem;
+    margin-top: 3px;
     font-weight: 600;
     font-family: "COCOGOOSE", sans-serif;
   }
 
-  .intro-main-page .global {    
+  .intro-main-page .global {
     padding-right: 20%;
-    
+
   }
 
   .intro-main-page {
@@ -370,7 +372,7 @@ body {
     background-repeat: no-repeat;
     width: 0%;
     padding: 0 10%;
-     }
+  }
 
   .intro-main-page,
   .description {
@@ -385,13 +387,13 @@ body {
   .day-time {
     font-family: "COCOGOOSE", sans-serif;
     color: #272a31;
-    font-size: 2.5rem;
+    font-size: 1.4rem;
     margin-bottom: 0;
     opacity: 0.8;
   }
 
   .venue {
-    font-size: 1.7rem;
+    font-size: 1.2rem;
     margin-top: 0;
   }
 
