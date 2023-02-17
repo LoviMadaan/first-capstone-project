@@ -16,4 +16,3 @@ const showMobileMenu = () => {
 };
 
 menuButton.addEventListener('click', showMobileMenu);
-
