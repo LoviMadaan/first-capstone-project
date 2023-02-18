@@ -44,6 +44,10 @@
 
 This is the [live demo](https://lovimadaan.github.io/first-capstone.github.io/) of my portfolio project.
 
+## Demo Video
+
+This is the [demo video](https://loom.com/share/6c7817646cea4e0da795fc4e94828788) of my portfolio project.
+
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
