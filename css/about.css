@@ -185,7 +185,7 @@ h3 {
 }
 
 .past-summit .take-a-look {
-  font-size: 1rem;
+  font-size: smaller;
   font-weight: 200;
   text-align: center;
 }
@@ -194,6 +194,7 @@ h3 {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  font-size: smaller;
 }
 
 .summits div {
@@ -201,6 +202,8 @@ h3 {
   height: 200px;
   box-sizing: border-box;
   align-items: center;
+  color: #fff;
+  margin-top: 10%;
 }
 
 .summit1 {
