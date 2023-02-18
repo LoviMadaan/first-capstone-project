@@ -6,7 +6,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
+  - [🚀 Live Demo](https://lovimadaan.github.io/Lovi-Portfolio.github.io/)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -40,6 +40,10 @@
 - Styleint
 - Technologies used
 
+## Live demo
+
+This is the [live demo](https://lovimadaan.github.io/first-capstone.github.io/) of my portfolio project.
+
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -58,7 +62,7 @@
 
 > Clone this repository to your desired folder:
 
-- git clone https://github.com/LoviMadaan/My-Portfolio-desktop-version.git
+- git clone https://github.com/LoviMadaan/first-capstone-project.git
 
 <!-- AUTHORS -->
 
