@@ -166,6 +166,55 @@ h3 {
   border: 0.1px solid rgb(204, 197, 197);
 }
 
+.past-summit
+ {
+  background-color: #fff;
+ }
+  .past-summit .see {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .past-summit .short-underline {
+    width: 60px;
+    height: 5px;
+    background-color: #ec5242;
+    border: none;
+    margin: 20px auto;
+    align-items: center;
+  }
+
+  .past-summit .take-a-look {
+    font-size: 1rem;
+    font-weight: 200;
+    text-align: center;
+  }
+
+  .summits {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .summits div {
+    width: 400px;
+    height: 200px;
+    box-sizing: border-box;
+   align-items: center;
+  }
+
+  .summit1 {
+    margin: 10px;
+    font-size: 2rem;
+    background-color: #ec5242;
+    align-content: center;
+    opacity: 3;
+    text-align: center;
+    background-image: url(../assets/images/backgroung-pizza.jpg);
+    background-color: #ec5242;
+    background-blend-mode: multiply;
+  }
+
 .footer {
   margin: 0;
   padding: 0;
@@ -217,6 +266,29 @@ h3 {
 .hamburger {
   position: sticky;
   cursor: pointer;
+}
+
+.past-summit .short-underline {
+  width: 60px;
+  height: 5px;
+  background-color: #ec5242;
+  border: none;
+  margin: 20px auto;
+  align-items: center;
+  font-size: smaller;
+}
+
+.summit1 {
+  margin: 10px;
+  font-size: 2rem;
+  background-color: #ec5242;
+  align-content: center;
+  opacity: 3;
+  text-align: center;
+  background-image: url(../assets/images/backgroung-pizza.jpg);
+  background-color: #ec5242;
+  background-blend-mode: multiply;
+  color: #fff;
 }
 
 .partner-list .partner img {
@@ -293,9 +365,7 @@ h3 {
   .logo {
     display: block;
     width: 160px;
-    height: 80px;
-
-    /* border-radius: 100%; */
+    height: 80px;  
   }
 
   .nav-item a:hover {
@@ -340,8 +410,7 @@ h3 {
     margin-right: 10px;
   }
 
-  .intro-main-page {
-    /* background-image: url(../assets/images/newback.jpg); */
+  .intro-main-page {    
     background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 100%;
@@ -443,7 +512,6 @@ h3 {
   .past-summit .see {
     font-size: 2rem;
     text-align: center;
-    /* background-color: white; */
   }
 
   .past-summit .short-underline {
@@ -464,6 +532,7 @@ h3 {
   .summits {
     display: flex;
     justify-content: center;
+    flex-direction: row;
   }
 
   .summits div {
@@ -480,10 +549,14 @@ h3 {
     align-content: center;
     opacity: 3;
     text-align: center;
+    background-image: url(../assets/images/backgroung-pizza.jpg);
+    background-color: #ec5242;
+    background-blend-mode: multiply;
   }
 
   .b-color1 {
     margin-top: 10%;
+    color: #fff;
   }
 
   .rights {
@@ -499,6 +572,34 @@ h3 {
 
   .summit1 .topic {
     font-size: 1rem;
+  
+  }
+
+  .events .event {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    background-position: center;
+    background-color: #ec5242;
+    background-blend-mode: multiply;
+    flex-flow: column;
+    flex-basis: 210px;
+    flex-grow: 1;
+    text-align: center;
+    color: #fafafa;
+    padding: 80px 0;
+    gap: 20px;
+    max-height: 100px;
+    background-size: cover;
+  }
+  
+  .events .event:nth-child(1) {
+    background-image: url(../assets/images/backgroung-pizza.jpg);
+  }
+  
+  .events .event:nth-child(2) {
+    background-image: url(../assets/images/backgroung-pizza.jpg);
+    background-color: #ec5242;
   }
 
 
