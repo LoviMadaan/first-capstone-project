@@ -169,11 +169,12 @@ h3 {
 .footer {
   margin: 0;
   padding: 0;
+  background-color: #fff;
 }
 
 .partners {
   background-color: #282b31;
-  text-align: center;
+  text-align: center;  
 }
 
 .partners .title {
@@ -431,6 +432,76 @@ h3 {
     margin: 50px auto;
   }
 
+  .partners {
+    display: none;
+  }
+
+  .past-summit
+ {
+  background-color: #fff;
+ }
+  .past-summit .see {
+    font-size: 2rem;
+    text-align: center;
+    /* background-color: white; */
+  }
+
+  .past-summit .short-underline {
+    width: 60px;
+    height: 5px;
+    background-color: #ec5242;
+    border: none;
+    margin: 20px auto;
+    align-items: center;
+  }
+
+  .past-summit .take-a-look {
+    font-size: 1rem;
+    font-weight: 200;
+    text-align: center;
+  }
+
+  .summits {
+    display: flex;
+    justify-content: center;
+  }
+
+  .summits div {
+    width: 400px;
+    height: 200px;
+    box-sizing: border-box;
+   align-items: center;
+  }
+
+  .summit1 {
+    margin: 10px;
+    font-size: 2rem;
+    background-color: #ec5242;
+    align-content: center;
+    opacity: 3;
+    text-align: center;
+  }
+
+  .b-color1 {
+    margin-top: 10%;
+  }
+
+  .rights {
+    background-color: #fff; 
+    color: #272a31;
+    padding: 2% 15%;
+  }
+
+  .explanation {
+    display: block;
+    margin-top: 10px;
+  }
+
+  .summit1 .topic {
+    font-size: 1rem;
+  }
+
+
   .rights {
     background-color: #272a31;
     color: #fff;
@@ -441,10 +512,6 @@ h3 {
     display: block;
     margin-top: 10px;
     padding-bottom: 0%;
-  }
-
-  .summit1 .topic {
-    font-size: 1rem;
   }
 
   .footer-year {
